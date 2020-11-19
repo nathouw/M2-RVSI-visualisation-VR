@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Projet Visualisation RV/Assets/Materials.meta
 guid: 4831545f7f80f7d48806ae3b3760d08e
 folderAsset: yes
 DefaultImporter:
+=======
+guid: 452c8853d8b4d44479fea072f054a0ee
+NativeFormatImporter:
+>>>>>>> 022d147437407757b365c840828ec0332bf8ac41:Projet Visualisation RV/Assets/New Material.mat.meta
   externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
