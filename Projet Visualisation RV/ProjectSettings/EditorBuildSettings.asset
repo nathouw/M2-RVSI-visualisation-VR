@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tymothe.unity
-    guid: 685dc2ebd6b19614e918b86ed63b50d7
-  - enabled: 1
     path: Assets/Scenes/Nelly.unity
     guid: b0a01f6fd280c2d4882b6bfd415720fb
   m_configObjects: {}
