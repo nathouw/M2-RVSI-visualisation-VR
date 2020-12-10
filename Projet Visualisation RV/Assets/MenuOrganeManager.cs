@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class MenuOrganeManager : MonoBehaviour
 {
-    public GameObject organe;
-    public Transform reset;
+    
     public Slider scaleSlider;
 
     // Start is called before the first frame update
@@ -21,16 +20,7 @@ public class MenuOrganeManager : MonoBehaviour
         
     }
 
-    public void ResetPos()
-    {
-        organe.transform.position = reset.transform.position;
-        organe.transform.rotation = reset.transform.rotation;
-        organe.transform.localScale = new Vector3(scaleSlider.value, scaleSlider.value, scaleSlider.value);
-
-    }
     
-    public void ScaleChange()
-    {
-        organe.transform.localScale = new Vector3(scaleSlider.value, scaleSlider.value, scaleSlider.value);
-    }
+
+    
 }
