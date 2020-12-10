@@ -24,7 +24,7 @@ public class OrganeController : MonoBehaviour
         {
             this.transform.Rotate(new Vector3(0, 0, 1));
         }
-        if(this.GetComponent<OVRGrabbable>().isGrabbed && !rotate && false)
+        if(this.GetComponent<OVRGrabbable>().isGrabbed && rotate)
         {
             rotate = false;
         }
