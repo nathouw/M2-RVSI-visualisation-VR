@@ -5878,7 +5878,18 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 167017769}
+        m_MethodName: ScaleChange
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1447854099
 GameObject:
   m_ObjectHideFlags: 0
@@ -9973,6 +9984,7 @@ GameObject:
   - component: {fileID: 3205993397140680780}
   - component: {fileID: 3205993397140680819}
   - component: {fileID: 3205993397140680818}
+  - component: {fileID: 3205993397140680820}
   m_Layer: 5
   m_Name: ButtonQuitter
   m_TagString: Untagged
@@ -10042,7 +10054,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3205993397140680819}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3205993396631683898}
+        m_MethodName: QuitOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3205993397140680819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10072,6 +10095,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 6
+--- !u!114 &3205993397140680820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205993397140680816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6afabcd460a8cb3409d6ad45322cebd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3205993397200512040
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10286,7 +10321,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3205993397338961244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 525125036}
+        m_MethodName: ResetPos
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3205993397338961244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10386,7 +10432,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3205993397452636282}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 167017769}
+        m_MethodName: ResetPos
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3205993397452636263
 GameObject:
   m_ObjectHideFlags: 0
