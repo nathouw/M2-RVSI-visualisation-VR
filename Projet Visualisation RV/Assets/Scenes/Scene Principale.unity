@@ -961,6 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &48252949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,6 +2542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &316055992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2711,6 +2713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &329059297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9003,6 +9006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &988889479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10765,6 +10769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &1325222801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12104,6 +12109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &1481991142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14954,6 +14960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!114 &1861546086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17116,6 +17123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList: []
 --- !u!224 &3205993396551398942
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17210,6 +17218,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502eb24316668144a9f8f69d4fe3314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organsList:
+  - {fileID: 167017769}
+  - {fileID: 1369896358}
+  - {fileID: 1560984031}
+  - {fileID: 413577840}
+  - {fileID: 726331605}
+  - {fileID: 662743289}
+  - {fileID: 671870812}
+  - {fileID: 1904198378}
 --- !u!1 &3205993396631683900
 GameObject:
   m_ObjectHideFlags: 0
@@ -18034,9 +18051,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 525125036}
-        m_MethodName: ResetPos
-        m_Mode: 4
+      - m_Target: {fileID: 3205993396631683898}
+        m_MethodName: ResetAll
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
